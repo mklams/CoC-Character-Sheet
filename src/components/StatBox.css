@@ -1,0 +1,22 @@
+.stackedStats{
+    width: 35%;
+    float: right;
+}
+
+.calcStat{
+    height: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.mainStat{
+    height: 28px;
+    float: left;
+    width: 55%;
+    text-align: center;
+    font-size: 110%;
+}
+
+.statBox{
+    width: 60px;
+}

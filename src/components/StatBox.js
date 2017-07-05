@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import 'components/StatBox.css'
+import 'components/StatBox.css';
 
 class StatBox extends Component {
 
@@ -23,6 +23,7 @@ class StatBox extends Component {
     render() {
         return (
             <div className="statBox">
+                <label className="statName">{this.props.statName}</label>
                 <input
                     value={this.state.statValue}
                     onChange={(event) => this.changeStat(event)}

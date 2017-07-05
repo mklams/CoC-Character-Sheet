@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'containers/App.css';
-import StatBox from 'components/StatBox.js';
+import Characteristics from 'components/Characteristics.js';
 
 /** 
  * Wrapper element for entire appliaction
@@ -8,7 +8,7 @@ import StatBox from 'components/StatBox.js';
 class App extends Component {
   render() {
     return (
-      <StatBox />
+      <Characteristics />
     );
   }
 }

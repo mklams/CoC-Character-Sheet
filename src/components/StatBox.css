@@ -1,5 +1,5 @@
 .stackedStats{
-    width: 35%;
+    width: 20%;
     float: right;
 }
 
@@ -9,14 +9,22 @@
     text-align: center;
 }
 
+.statName{
+    float: left;
+    width: 40%;
+    text-align: center;
+    font-size: 110%;
+    margin-top: 8px;
+}
+
 .mainStat{
     height: 28px;
-    float: left;
-    width: 55%;
+    /*float: left;*/
+    width: 34%;
     text-align: center;
     font-size: 110%;
 }
 
 .statBox{
-    width: 60px;
+    width: 110px;
 }
